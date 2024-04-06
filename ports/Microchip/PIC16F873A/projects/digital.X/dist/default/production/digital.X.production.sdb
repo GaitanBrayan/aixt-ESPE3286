@@ -11,7 +11,7 @@
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"24 C:\Users\WINDOWS10\proyectorepositorio\aixt-PIC16-Cesar-Alejandro-Roa-Acosta\ports\Microchip\PIC16F873A\projects\digital.X\digital.c
+"14 C:\Users\WINDOWS10\proyectorepositorio\aixt-PIC16-Cesar-Alejandro-Roa-Acosta\ports\Microchip\PIC16F873A\projects\digital.X\digital.c
 [v _main main `(v  1 e 1 0 ]
 [s S85 . 1 `uc 1 RB0 1 0 :1:0 
 `uc 1 RB1 1 0 :1:1 
@@ -61,8 +61,8 @@
 "1354
 [u S31 . 1 `S22 1 . 1 0 ]
 [v _TRISCbits TRISCbits `VES31  1 e 1 @135 ]
-"24 C:\Users\WINDOWS10\proyectorepositorio\aixt-PIC16-Cesar-Alejandro-Roa-Acosta\ports\Microchip\PIC16F873A\projects\digital.X\digital.c
+"14 C:\Users\WINDOWS10\proyectorepositorio\aixt-PIC16-Cesar-Alejandro-Roa-Acosta\ports\Microchip\PIC16F873A\projects\digital.X\digital.c
 [v _main main `(v  1 e 1 0 ]
 {
-"58
+"48
 } 0

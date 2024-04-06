@@ -1,4 +1,9 @@
 {
-    "nbc_windows":  "..\\nbc-windows.exe",
-    "nbc_linux":    "../nbc-linux",
+    "aixt_linux":   "../../../../../src",
+    "aixt_windows": "..\\..\\..\\..\\..\\src",
+    "device":       "Explorer16-PIC24",
+    "files.associations": {
+        "*.aixt": "v",
+        "*.nxc": "c",
+    }
 }

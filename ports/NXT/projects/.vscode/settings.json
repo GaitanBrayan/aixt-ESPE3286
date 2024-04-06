@@ -1,6 +1,9 @@
 {
+    "aixt_linux":   "../../../src",
+    "aixt_windows": "..\\..\\..\\src",
+    "device":       "NXT",
     "files.associations": {
-        "*.nxc":  "cpp",
-        "*.aixt": "v"
+        "*.aixt": "v",
+        "*.nxc": "c",
     }
 }

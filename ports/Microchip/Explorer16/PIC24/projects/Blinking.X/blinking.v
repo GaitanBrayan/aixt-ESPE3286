@@ -1,11 +1,12 @@
-// import machine {pin}
-// import time {sleep_ms}
+import time { sleep_ms }
+import pin
 
-pin_setup(led3, out)
+const t1 = 500
+pin.setup(a0, pin.output)
 
 for {
-	pin_high(led3)
-	sleep_ms(500)
-	pin_low(led3)
-	sleep_ms(500)
+	pin.high(a0)
+	sleep_ms(t1)
+	pin.low(a0)
+	sleep_ms(t1)
 }

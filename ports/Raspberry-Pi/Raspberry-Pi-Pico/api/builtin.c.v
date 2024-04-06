@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Project Name: Aixt project, https://gitlab.com/fermarsan/aixt-project.git
+=======
+// Project Name: Aixt project https://gitlab.com/fermarsan/aixt-project.git
+>>>>>>> 2d8f797db8c3c5c757c2f3c7abe22d9bbd8f42fb
 // File Name: builtin.c
 // Author: Fernando Martínez Santa
 // Date: 2022-2023
@@ -6,6 +10,7 @@
 //
 // Description: Builtin definitions
 //              (PC port) 
+<<<<<<< HEAD
 
 #define led     gp25
 #define boton   gp11
@@ -16,6 +21,12 @@
 #define led5    gp10
 #define pot     gp27
 #define POT1    gp28
+=======
+module main
+
+#define led     gp25
+
+>>>>>>> 2d8f797db8c3c5c757c2f3c7abe22d9bbd8f42fb
 
 enum __pin_names {    // enumerated type for the pin names
     gp0    
@@ -50,6 +61,12 @@ enum __pin_names {    // enumerated type for the pin names
     gp29
 }
 
+<<<<<<< HEAD
 fn init {
 
 }
+=======
+fn init() {
+
+}
+>>>>>>> 2d8f797db8c3c5c757c2f3c7abe22d9bbd8f42fb
