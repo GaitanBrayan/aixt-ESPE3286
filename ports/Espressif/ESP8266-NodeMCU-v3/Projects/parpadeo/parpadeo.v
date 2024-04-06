@@ -1,11 +1,9 @@
-// import machine {pin}
-// import time {sleep_ms}
+import time
+import pin
 
-pin_setup(led3, out)
-
-for {
-	pin_high(led3)
-	sleep_ms(500)
-	pin_low(led3)
-	sleep_ms(500)
+for i in 0..5 {   //blinking the emulated pin x, 5 times
+    pin.high(D1)
+    time.sleep(1)
+    pin.low(D1)
+    time.sleep(1)
 }

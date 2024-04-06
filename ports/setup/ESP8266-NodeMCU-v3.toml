@@ -1,7 +1,7 @@
 # Project Name = Aixt project, https =//gitlab.com/fermarsan/aixt-project.git
 # File Name = Explorer16-PIC24.toml
 # Author = Fernando Martínez Santa
-# Date = 2022-2023
+# Date = 2024
 # License = MIT
 #
 # Description = This is the setup file for the Explorer16 (with PIC24)
@@ -12,7 +12,7 @@ board =   "ESP8266 NodeMCU v3"
 backend = "arduino"
 
 cc_linux =   "xc16"
-cc_windows = "xc16.exe"
+cc_windows = "C:\Program Files (x86)\Arduino.exe"
 cc_flags =   "-o"
 
 path = "ports/Espressif/ESP8266-NodeMCU-v3"
