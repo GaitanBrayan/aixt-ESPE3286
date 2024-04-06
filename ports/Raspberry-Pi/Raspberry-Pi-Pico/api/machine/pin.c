@@ -14,7 +14,7 @@
 
 #define adc_write(PIN_NAME, MODE)   analogWrite(PIN_NAME, MODE)
 
-#define uart0_setup(baud_rate)   Serial.begin(baud_rate)
+#define uart0_setup(baud_rate)   Serial.begin(baud_rate).,
 #define uart_setup(baud_rate)   Serial.begin(baud_rate)
 
 #define uart0_ready()  Serial.available()
