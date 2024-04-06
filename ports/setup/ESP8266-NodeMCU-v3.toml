@@ -12,10 +12,10 @@ board =   "ESP8266 NodeMCU v3"
 backend = "arduino"
 
 cc_linux =   "xc16"
-cc_windows = "C:\Program Files (x86)\Arduino.exe"
+cc_windows = "C:\Program Files (x86)\Arduino"
 cc_flags =   "-o"
 
-path = "ports/Espressif/ESP8266-NodeMCU-v3"
+path = "Espressif/ESP8266-NodeMCU-v3"
 
 api_modules = [
     "machine",
